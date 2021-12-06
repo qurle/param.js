@@ -20,6 +20,21 @@ import Params from 'paramsjs'
 Params(redirect)
 ```
 
+## Parameters
+
+Here's and example of your redirect object:
+
+```
+redirect = {
+    "s": "utm_source=test&utm_medium=test&utm_campaign=test",
+    "e": "utm_source=email&utm_medium=sign&utm_campaign=email",
+    "f": "utm_source=figma&utm_medium=bio&utm_campaign=figma",
+    ...
+}
+```
+
+This means that `example.com/whatever?e` will redirect to `example.com/whatever?utm_source=email&utm_medium=sign&utm_campaign=email`
+
 ## Problem? Idea? Kind words?
 
 I accept feature suggestions and ideas to improve this script. 
