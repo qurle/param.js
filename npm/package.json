@@ -1,0 +1,22 @@
+{
+    "name": "param-js",
+    "version": "1.0.4",
+    "description": "The function that helps to shorten your URL-parameters using your redirect dictionary",
+    "keywords": [
+        "parameter",
+        "url",
+        "params",
+        "redirect"
+    ],
+    "homepage": "https://github.com/qurle/param.js",
+    "bugs": {
+        "url": "https://github.com/qurle/param.js/issues",
+        "email": "nick@qurle.net"
+    },
+    "license": "BSD-3-Clause",
+    "author": "Nick Qurle <nick@qurle.net> (https://qurle.net/)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qurle/param.js.git"
+    }
+}

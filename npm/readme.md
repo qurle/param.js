@@ -12,10 +12,13 @@ We often have to share our link. Put them in bio, send with messages, attach the
 
 ## How to use
 
-Just put in your server directory and connect by `<script scr="path/to/param.js"></script>` tag. You definitely can put it in your `<head>` as soon as it should redirect user instantly.
+Just import and call once!
 
-Change redirect object with URL-parameters you need (the example is given) and you're on!
-
+```
+import Params from 'paramsjs'
+...
+Params(redirect)
+```
 
 ## Problem? Idea? Kind words?
 
